@@ -25,10 +25,6 @@
     if(!self)
         return nil;
 
-    id<GiphyImageViewModelProtocol> testModel = [GiphyImageViewModel new];
-    testModel.imageUrl = [NSURL URLWithString:@"http://media1.giphy.com/media/JApYh06rwXphS/200w.gif"];
-    testModel.size = (CGSize) {.height = 200, .width = 200};
-
     self.giphyClient = client;
 
     return self;
