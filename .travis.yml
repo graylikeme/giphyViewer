@@ -1,5 +1,4 @@
 language: objective-c
 
-
 script:
 - xctool test -workspace gifyViewer.xcworkspace -scheme gifyViewer -configuration test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
